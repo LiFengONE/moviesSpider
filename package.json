@@ -1,0 +1,19 @@
+{
+  "name": "moviesspider",
+  "version": "1.0.0",
+  "description": "movies spider",
+  "main": "movies.js",
+  "dependencies": {
+    "async": "^1.5.0",
+    "cheerio": "^0.19.0",
+    "eventproxy": "^0.3.4",
+    "request": "^2.81.0",
+    "superagent": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node movies.js"
+  },
+  "author": "疯疯锋",
+  "license": "ISC"
+}
